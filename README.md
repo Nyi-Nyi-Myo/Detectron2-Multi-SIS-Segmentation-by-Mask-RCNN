@@ -44,11 +44,15 @@ This repository contains code and results for **instance segmentation** of surgi
 To run inference and visualize N random samples from validation set:
 
 ```python
-run_inference_on_random_images(num_images=8)
+run_inference_on_random_images(num_images=12)
 ```
 
 - Colors are fixed per class
 - Results shown in 4-column grid
+
+📌 Example:
+
+![Example Results](./detectron2_maskrcnn_results_sample.png)
 
 ## 📦 Files
 
